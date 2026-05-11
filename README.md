@@ -32,3 +32,5 @@ The solution: each block builds its own partial histogram in shared memory using
 ## Output
 
 For each image the pipeline writes two processed PNGs (_edges.png, _heq.png) to ./output/ and records per-image timing and pixel statistics. After all images are processed, a results.csv is written and a timing summary is printed.
+
+![results snippet](attachment.png)
